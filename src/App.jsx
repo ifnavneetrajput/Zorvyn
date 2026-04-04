@@ -1,16 +1,7 @@
-
-
-import './App.css'
+import DashboardPage from "./pages/DashboardPage";
 
 function App() {
-
-
-  return (
-    <>
-      <h1 className='h-56 bg-amber-800'>navneet</h1>
-    </>
- 
-  )
+  return <DashboardPage />;
 }
 
-export default App
+export default App;
